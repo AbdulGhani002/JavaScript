@@ -1,5 +1,6 @@
 function greetUser(user = "User") {
-  console.log(`Hello ${user} !`);
+  return `Hello ${user}!`;
 }
 
-greetUser();
+console.log(greetUser());
+console.log(greetUser('Abdul Ghani'));
